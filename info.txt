@@ -1,0 +1,5 @@
+﻿Język: c++
+Użyto: Windows 10 x64
+Kompilator i linker z: MinGW
+Kompilacja: g++ -Wl,--stack,15000000 -o ASD.exe *.cpp *.hpp
+Czas sprawdzany za pomocą: clock_t, clock(), double(end - begin) / CLOCKS_PER_SEC
